@@ -1,0 +1,62 @@
+.counter {
+    font-size: 50px;
+    color: #f45c24;
+}
+
+.counter-label {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.card {
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-bottom: #4a90e2 4px solid;
+    padding: 30px;
+}
+
+.card-title {
+    color: #4a90e2;
+    font-weight: bold;
+}
+.card-subtitle {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.card-text {
+    height: 4.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-text.expanded {
+    height: auto;
+}
+
+.read-more {
+    color: #4a90e2;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    padding-left: 3px;
+}
+
+.author {
+    font-style: italic;
+    color: #666;
+}
+
+.text-light {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f45c24;
+}
